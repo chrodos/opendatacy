@@ -17,8 +17,8 @@ Add this to opendata2/modules/locale/locale.css
 }
 
 .language-switcher-locale-session li {
-                display: inline;
-        }
+  display: inline;
+}
  ```
 ## Fix the empty space at the bottom of the boxes (e.g., application)
 
