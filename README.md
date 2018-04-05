@@ -11,7 +11,7 @@ opendata2/profiles/dkan/themes/nuboot_radix/templates/page
 ## Fix flags
 
 Add this to opendata2/modules/locale/locale.css
-
+```css
 .language-switcher-locale-session{
   list-style: none;
 }
@@ -19,6 +19,7 @@ Add this to opendata2/modules/locale/locale.css
 .language-switcher-locale-session li {
                 display: inline;
         }
+ ```
 ## Fix the empty space at the bottom of the boxes (e.g., application)
 
 Edit file opendata2/profiles/dkan/themes/nuboot_radix/assets/css/nuboot_radix.style.css:10315
