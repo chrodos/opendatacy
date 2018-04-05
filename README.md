@@ -5,6 +5,7 @@ Changes after upgrade:
 #Fix flags
 
 Add this to opendata2/modules/locale/locale.css
+
 .language-switcher-locale-session{
   list-style: none;
 }
