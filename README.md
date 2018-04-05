@@ -27,7 +27,7 @@ Change it to margin-bottom: 0em;
 ## Add the new Licences
 Replace the function dkan_dataset_content_types_license_subscribe() in file opendata2_old/profiles/dkan/modules/dkan/dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.license_field.inc
 
-
+```php
 function dkan_dataset_content_types_license_subscribe() {
   return array(
     "cc-by" => array(
@@ -47,5 +47,5 @@ function dkan_dataset_content_types_license_subscribe() {
     ),
   );
 }
-
+```
 
