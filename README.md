@@ -49,4 +49,15 @@ function dkan_dataset_content_types_license_subscribe() {
   );
 }
 ```
+## Change the layer of the maps to hide turkish names in occupied Cyprus
+
+File: opendata2/profiles/dkan/modules/dkan/dkan_sitewide/dkan_sitewide.blocks.inc
+Line: 171
+```javascript
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+```
+TO
+```javascript
+L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.png', {
+```
 
