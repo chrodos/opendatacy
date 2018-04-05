@@ -1,8 +1,8 @@
-# opendatacy
+# opendatacy Upgrade changes
 
 Changes after upgrade:
 
-#Fix flags
+## Fix flags
 
 Add this to opendata2/modules/locale/locale.css
 
