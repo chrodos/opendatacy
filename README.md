@@ -62,7 +62,7 @@ L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.png',
 ```
 
 ## Color of the file format in datasets
-Edit file:
+Edit file:opendata2/profiles/dkan/modules/dkan/dkan_dataset/css/dkan_dataset.css
 
 ```css
 .label[data-format=HTML],
@@ -160,17 +160,6 @@ Edit file:
 .label[data-format=doc],
 .label[data-format*=doc] {
   background-color:   #186399;
-}
-.format-label {
-  color: transparent;
-  font-weight: normal;
-  height: 50px;
-  left: 0;
-  position: absolute;
-  text-decoration: none;
-  top: 0;
-  width: 35px;
-  z-index: 0;
 }
 ```
 
