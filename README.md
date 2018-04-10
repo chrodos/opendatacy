@@ -61,3 +61,5 @@ TO
 L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.png', {
 ```
 
+## Color of the files
+
