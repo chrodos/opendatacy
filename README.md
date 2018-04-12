@@ -162,4 +162,6 @@ Edit file:opendata2/profiles/dkan/modules/dkan/dkan_dataset/css/dkan_dataset.css
   background-color:   #186399;
 }
 ```
+## Replace the favicon
 
+Place the favicon in the folder: /var/www/opendata/profiles/dkan/themes/nuboot_radix
