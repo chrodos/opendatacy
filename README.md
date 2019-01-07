@@ -22,7 +22,7 @@ Add this to opendata2/modules/locale/locale.css
  ```
 ## Fix the empty space at the bottom of the boxes (e.g., application)
 
-Edit file opendata2/profiles/dkan/themes/nuboot_radix/assets/css/nuboot_radix.style.css:10315
+Edit file opendata2/profiles/dkan/themes/nuboot_radix/assets/css/nuboot_radix.style.css:10315 (10339 in new file)
 Change it to margin-bottom: 0em;
 
 ## Add the new Licences
